@@ -4,7 +4,7 @@
  * Public domain.
  */
 
-#include <unistd.h>
+#include "unistd.h"
 #include "cdb_int.h"
 
 #ifndef SEEK_SET

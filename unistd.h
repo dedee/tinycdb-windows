@@ -12,6 +12,7 @@
 #include "getopt.h" /* getopt at: https://gist.github.com/bikerm16/1b75e2dd20d839dcea58 */
 #include <process.h> /* for getpid() and the exec..() family */
 #include <direct.h> /* for _getcwd() and _chdir() */
+#include <stdio.h>
 
 #define srandom srand
 #define random rand
