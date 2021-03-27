@@ -1,6 +1,10 @@
 # tinycdb-windows
 Unofficial dirty Windows "port" of Michael Tokarevs TinyCDB project. Added basic CMake build and unistd/getopt.
 
+## Download
+
+https://github.com/dedee/tinycdb-windows/releases/download/v0.1/tinycdb.exe
+
 ## Build
 
 You need to install CMake and Visual Studio 2019.
