@@ -10,15 +10,17 @@ You need to install CMake and Visual Studio 2019.
     cmake ..
     cmake --build .
 
+Building release
+
+    cmake --build . --target ALL_BUILD --config Release
+
 ## changes
 
-unistd.h
-https://gist.github.com/mbikovitsky/39224cf521bfea7eabe9
-
 getopt.h
-https://gist.github.com/superwills/5815344
+https://github.com/Chunde/getopt-for-windows
+License: LGPL
 
 ## license
 
 The original code of tinycdb is in the public domain.
-
+getopt header is released under LGPL.
