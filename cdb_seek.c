@@ -4,7 +4,11 @@
  * Public domain.
  */
 
-#include "unistd.h"
+#ifdef _WIN32
+  #include "windows/unistd.h"
+#else
+  #include <unistd.h>
+#endif
 #include "cdb_int.h"
 
 #ifndef SEEK_SET

@@ -5,7 +5,11 @@
  */
 
 #include <stdlib.h>
-#include "unistd.h"
+#ifdef _WIN32
+  #include "windows/unistd.h"
+#else
+  #include <unistd.h>
+#endif
 #include <assert.h>
 #include "cdb_int.h"
 

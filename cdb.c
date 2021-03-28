@@ -9,8 +9,10 @@
 #ifdef _WIN32		/* by the way, how about win64? */
 # include <io.h>
 # include <malloc.h>
+# include "windows/unistd.h"
+# include "windows/getopt.h"
 /* This pragma suppresses snippy VC warnings for POSIX functions like read() */
-# pragma warning(disable: 4996)
+//# pragma warning(disable: 4996)
 #else
 # include <unistd.h>
 #endif
