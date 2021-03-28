@@ -3,7 +3,7 @@ Unofficial dirty Windows "port" of Michael Tokarevs TinyCDB project. Added basic
 
 ## Download
 
-https://github.com/dedee/tinycdb-windows/releases/download/v0.1/tinycdb.exe
+https://github.com/dedee/tinycdb-windows/releases
 
 ## Build
 
